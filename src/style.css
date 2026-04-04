@@ -283,3 +283,18 @@ h2 {
     gap: 1rem;
   }
 }
+
+.form1{
+background-color: cornsilk;
+padding: 20px 20px ;
+text-align: center;
+
+}
+.form .input{
+  width: 200px;
+}
+.but1{
+  border-radius: 40%;
+  width: 200px;
+  height: 20px;
+}
