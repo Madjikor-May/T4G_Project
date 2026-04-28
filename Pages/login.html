@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
     <div>    
@@ -18,5 +19,36 @@
             <button class="b1"><a href="signup.html">Sign Up</a></button>
     </nav>
  </div>
+ <div>
+ <h2>Log in</h2>
+ <!-- Social Buttons--> 
+  <button class="social-btn google">Continue with Google</button>
+  <button class="social-btn facebook">Continue with Facebook</button>
+  <button class="social-btn apple">Continue with Apple</button>
+
+  <div class="divider">OR</div>
+  <!--  Form--> 
+    <form>
+      <input type="text" placeholder="Email address or user name" required>
+      <div class="password-box">
+        <input type="password" placeholder="Password" required>
+        <span class="toggle">Hide</span> 
+      </div>
+
+      <div class="options">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+        <a href="#">Forgot your password?</a>
+      </div>
+      <button type="submit" class="login-btn">Log in</button>
+    </form>
+
+    <p class="signup-text">
+      Don't have a account?
+    </p>
+    <button class="signup-btn">Signup</button>
+</div>
+
 </body>
 </html>

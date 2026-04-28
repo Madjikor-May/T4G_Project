@@ -588,3 +588,85 @@ background: rgba(255,255,255,.35);
   .actions { flex-direction: column; }
   .btn-outline, .btn-primary { width: 100%; }
 }
+
+/* Title */ 
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Social Buttons */
+.social-btn {
+width: 100%;
+padding: 10px;
+margin: 6px 0;
+border: 1px solid #ccc;
+border-radius: 20px;
+background: white;
+cursor: pointer;
+}
+
+/* Divider */
+.divider {
+  margin: 15px 0;
+  font-size: 12px;
+  color: gray;
+}
+
+/* Inputs */
+input[type="text"]
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/*Password box*/
+.password-box {
+  position: relative;
+}
+
+.password-box .toogle {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  font-size: 12px;
+  cursor: pointer;
+  color: gray;
+}
+
+/* Option row */
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+/*Login Button */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: #2d5bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Signup */
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-btn {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+}
